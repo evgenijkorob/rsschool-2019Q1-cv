@@ -19,7 +19,7 @@ header {
   background-color: #182e6b;
 }
 
-header > img {
+header img {
   height: 4rem;
   width: auto;
 }
