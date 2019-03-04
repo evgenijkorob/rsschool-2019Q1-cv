@@ -38,6 +38,7 @@ header > span {
   border: 5px solid #182e6b;
   padding: 0 1rem;
   margin: 2.4rem 1.5rem;
+  background-color: #c1ddff7a;
 }
 
 .paragraph-wrapper > * {
