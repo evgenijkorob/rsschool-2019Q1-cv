@@ -81,3 +81,12 @@ header > span {
   margin-block-start: 0;
   margin-block-end: 0;
 }
+
+#my-photo {
+  border: 5px solid #182e6b;
+  float: right;
+  height: auto;
+  width: 20%;
+  margin: 1rem 0;
+  margin-left: 1rem;
+}
