@@ -1,0 +1,32 @@
+html, body {
+  margin: 0 auto;
+}
+
+html {
+  max-width: 1024px;
+  min-width: 720px;
+  font-size: 24px;
+  font-family: 'Lora', serif;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.7rem 1.3rem;
+
+  background-color: #182e6b;
+}
+
+header > img {
+  height: 4rem;
+  width: auto;
+}
+
+header > span {
+  font-size: 1.2rem;
+  color: whitesmoke;
+  font-weight: bold;
+  text-transform: uppercase;
+}
