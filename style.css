@@ -90,3 +90,24 @@ header > span {
   margin: 1rem 0;
   margin-left: 1rem;
 }
+
+footer {
+  padding: 1rem 1.3rem;
+
+  background-color: #182e6b;
+  color: whitesmoke;
+}
+
+footer ul {
+  margin-bottom: 0;
+  padding-left: 1rem;
+  border-left: 5px solid whitesmoke;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  color: inherit;
+}
