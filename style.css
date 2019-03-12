@@ -1,44 +1,47 @@
-html, body {
+html,
+body {
   margin: 0 auto;
+
   background-color: whitesmoke;
 }
 
 html {
-  max-width: 1024px;
   min-width: 450px;
+  max-width: 1024px;
+
   font-size: 24px;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
 }
 
 header {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-
-  padding: 0.7rem 1.3rem;
+  align-items: center;
   margin-bottom: 3rem;
+  padding: 0.7rem 1.3rem;
 
   background-color: #182e6b;
 }
 
 header img {
-  height: 4rem;
   width: auto;
+  height: 4rem;
 }
 
 header > span {
+  font-weight: bold;
   font-size: 1.2rem;
   color: whitesmoke;
-  font-weight: bold;
   text-transform: uppercase;
 }
 
 .paragraph-wrapper {
   box-sizing: content-box;
-  border: 5px solid #182e6b;
-  padding: 0 1rem;
   margin: 2.4rem 1.5rem;
+  padding: 0 1rem;
+
   background-color: #c1ddff7a;
+  border: 5px solid #182e6b;
 }
 
 .paragraph-wrapper > * {
@@ -46,19 +49,23 @@ header > span {
 }
 
 .paragraph-wrapper > h3 {
-  display: inline-block;
   position: relative;
   top: -1rem;
+
+  display: inline-block;
   margin: 0;
   padding: 0 0.5rem;
-  margin-block-end: 0;
-  background-color: whitesmoke;
+
   color: #182e6b;
+
+  background-color: whitesmoke;
+
+  margin-block-end: 0;
 }
 
 .paragraph-wrapper ul {
-  padding-inline-start: 1.2rem;
   margin-block-start: -1rem;
+  padding-inline-start: 1.2rem;
 }
 
 .note-wrapper {
@@ -66,36 +73,38 @@ header > span {
   margin: 2.4rem 1.5rem;
   padding: 1rem;
 
-  border-left: 5px solid #ff9600db;
   background-color: #ffa2005c;
+  border-left: 5px solid #ff9600db;
 }
 
 .note-wrapper > h3 {
-  margin-block-start: 0;
-  margin-block-end: 1rem;
-
   color: #ff9600db;
+
+  margin-block-end: 1rem;
+  margin-block-start: 0;
 }
 
 .note-wrapper p {
-  margin-block-start: 0;
   margin-block-end: 0;
+  margin-block-start: 0;
 }
 
 #my-photo {
-  border: 3px solid #182e6b;
   float: right;
-  height: auto;
   width: 20%;
+  height: auto;
   margin: 1rem 0;
   margin-left: 1rem;
+
+  border: 3px solid #182e6b;
 }
 
 footer {
   padding: 1rem 1.3rem;
 
-  background-color: #182e6b;
   color: whitesmoke;
+
+  background-color: #182e6b;
 }
 
 footer h4 {
@@ -106,6 +115,7 @@ footer h4 {
   margin: 0;
   margin-right: 2rem;
   padding: 0.5em 0 0.8em 1em;
+
   border-left: 5px solid whitesmoke;
 }
 
@@ -119,19 +129,20 @@ footer a {
 
 .contacts-flex-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .buttons-container {
-  margin: 0;
-  padding: 0;
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Comfotaa", sans-serif;
   color: #182e6b;
-  font-family: 'Comfotaa', sans-serif;
 }
 
 @media screen and (max-width: 856px) {
@@ -144,15 +155,18 @@ footer a {
 .buttons-container a {
   display: block;
   padding: 0.7rem 0.9rem;
-  border: 3px solid whitesmoke;
+
   color: whitesmoke;
-  text-decoration: none;
   text-transform: uppercase;
+  text-decoration: none;
+
+  border: 3px solid whitesmoke;
 }
 
 .buttons-container a:hover {
-  background-color: whitesmoke;
   color: inherit;
+
+  background-color: whitesmoke;
 }
 
 .buttons-container a + a {
