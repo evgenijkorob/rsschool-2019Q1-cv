@@ -1,15 +1,17 @@
 html,
 body {
-  margin: 0 auto;
-
   background-color: whitesmoke;
 }
 
 html {
+  font-size: 24px;
+}
+
+body {
   min-width: 450px;
   max-width: 1024px;
+  margin: 0 auto;
 
-  font-size: 24px;
   font-family: "Lora", serif;
 }
 
