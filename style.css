@@ -117,14 +117,14 @@ footer a {
   color: inherit;
 }
 
-.contacts-flex_container {
+.contacts-flex-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
 }
 
-.buttons_container {
+.buttons-container {
   margin: 0;
   padding: 0;
   display: flex;
@@ -135,13 +135,13 @@ footer a {
 }
 
 @media screen and (max-width: 856px) {
-  .buttons_container {
+  .buttons-container {
     margin: 0 auto;
     margin-top: 2rem;
   }
 }
 
-.buttons_container a {
+.buttons-container a {
   display: block;
   padding: 0.7rem 0.9rem;
   border: 3px solid whitesmoke;
@@ -150,11 +150,11 @@ footer a {
   text-transform: uppercase;
 }
 
-.buttons_container a:hover {
+.buttons-container a:hover {
   background-color: whitesmoke;
   color: inherit;
 }
 
-.buttons_container a + a {
+.buttons-container a + a {
   margin-left: 1.5rem;
 }
