@@ -1,0 +1,176 @@
+html,
+body {
+  background-color: whitesmoke;
+}
+
+html {
+  font-size: 24px;
+}
+
+body {
+  min-width: 450px;
+  max-width: 1024px;
+  margin: 0 auto;
+
+  font-family: "Lora", "Times New Roman", serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 0.7rem 1.3rem;
+
+  background-color: #182e6b;
+}
+
+header img {
+  width: auto;
+  height: 4rem;
+}
+
+header > span {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: whitesmoke;
+  text-transform: uppercase;
+}
+
+.paragraph-wrapper {
+  box-sizing: content-box;
+  margin: 2.4rem 1.5rem;
+  padding: 0 1rem;
+
+  background-color: #c1ddff7a;
+  border: 5px solid #182e6b;
+}
+
+.paragraph-wrapper > * {
+  margin-block-start: 0;
+}
+
+.paragraph-wrapper > h3 {
+  position: relative;
+  top: -1rem;
+
+  display: inline-block;
+  margin: 0;
+  padding: 0 0.5rem;
+
+  color: #182e6b;
+
+  background-color: whitesmoke;
+
+  margin-block-end: 0;
+}
+
+.paragraph-wrapper ul {
+  margin-block-start: -1rem;
+  padding-inline-start: 1.2rem;
+}
+
+.note-wrapper {
+  box-sizing: content-box;
+  margin: 2.4rem 1.5rem;
+  padding: 1rem;
+
+  background-color: #ffa2005c;
+  border-left: 5px solid #ff9600db;
+}
+
+.note-wrapper > h3 {
+  color: #ff9600db;
+
+  margin-block-end: 1rem;
+  margin-block-start: 0;
+}
+
+.note-wrapper p {
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+#my-photo {
+  float: right;
+  width: 20%;
+  height: auto;
+  margin: 1rem 0;
+  margin-left: 1rem;
+
+  border: 3px solid #182e6b;
+}
+
+footer {
+  padding: 1rem 1.3rem;
+
+  color: whitesmoke;
+
+  background-color: #182e6b;
+}
+
+footer h4 {
+  margin-top: 0;
+}
+
+.contacts {
+  margin: 0;
+  margin-right: 2rem;
+  padding: 0.5em 0 0.8em 1em;
+
+  border-left: 5px solid whitesmoke;
+}
+
+footer li {
+  list-style-type: none;
+}
+
+footer a {
+  color: inherit;
+}
+
+.contacts-flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+
+  font-family: "Comfotaa", sans-serif;
+  color: #182e6b;
+}
+
+@media screen and (max-width: 856px) {
+  .buttons-container {
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+}
+
+.buttons-container a {
+  display: block;
+  padding: 0.7rem 0.9rem;
+
+  color: whitesmoke;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  border: 3px solid whitesmoke;
+}
+
+.buttons-container a:hover {
+  color: inherit;
+
+  background-color: whitesmoke;
+}
+
+.buttons-container a + a {
+  margin-left: 1.5rem;
+}
